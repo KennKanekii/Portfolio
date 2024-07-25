@@ -13,7 +13,7 @@ const Hero = () => {
                     </h1>
                     <span className="bg-gradient-to-r from-pink-300
                      via-slate-500 to-purple-500 bg-clip-text
-                     text-4xl tracking-tight text-transparent">Full Stack Developer
+                     text-3xl tracking-tight text-transparent">Full Stack Developer
                      </span>
                      <p className="my-2 max-w-xl py-4 font-light tracking-tighter">
                         {HERO_CONTENT}
@@ -22,7 +22,7 @@ const Hero = () => {
             </div>
             <div className="w-full lg:w-1/2 lg:p-8">
                 <div className="flex justify-center">
-                    <img className="w-96" src= {profilePic} alt="Yash Vardhan Sharma"/>
+                    <img className="w-96 rounded-3xl border-4 border-neutral-700" src= {profilePic} alt="Yash Vardhan Sharma"/>
                 </div>
             </div>
         </div>

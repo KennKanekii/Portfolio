@@ -15,13 +15,13 @@ const Navbar = () => {
         </div>
         
         <div className="m-8 flex items-center justify-center gap-4 text-2xl">
-            <FaGithub/>
-            <FaLinkedin/>
-            <SiLeetcode/>
-            <SiCodingninjas/>
-            <SiCodeforces/>
-            <SiCodechef/>
-            <SiGeeksforgeeks/>
+            <FaGithub className="text-blue-800"/>
+            <FaLinkedin className="text-blue-400"/>
+            <SiLeetcode className="text-yellow-500"/>
+            <SiCodingninjas className="text-orange-500"/>
+            <SiCodeforces className="text-red-400"/>
+            <SiCodechef className="text-red-500"/>
+            <SiGeeksforgeeks className="text-green-500"/>
         </div>
     </nav>
   )
