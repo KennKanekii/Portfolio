@@ -38,27 +38,27 @@ export const PROJECTS = [
     link:"https://kennkanekii.github.io/Electronic-Website-frontend/",
   },
   {
-    title: "Task Management App",
+    title: "User Authentication App",
     image: project2,
     description:
-      "An application for managing tasks and projects, with features such as task creation, assignment, and progress tracking.",
-    technologies: ["HTML", "CSS", "Angular", "Firebase"],
+      " It utilizes Nodemailer for sending emails and generates unique tokens using JSON Web Tokens for secure authentication.",
+    technologies: ["HTML", "CSS", "Nextjs", "Mongodb", "Json WebTokens"],
     link:"https://auth-next-app-eight.vercel.app/login",
   },
   {
-    title: "Portfolio Website",
+    title: "Customer Analysis in Mall",
     image: project3,
     description:
-      "A personal portfolio website showcasing projects, skills, and contact information.",
-    technologies: ["HTML", "CSS", "React", "Bootstrap"],
-    link:"https://kennkanekii.github.io/Electronic-Website-frontend/",
+      "K-mean Clustering Implementation, conducted an analysis on real-time mall data to enhance targeted marketing, improve customer experience, and boost customer retention.",
+    technologies: ["Python", "Pandas", "Seaborn", "Matplotlib", "Scikit-Learn", "NumPy"],
+    link:"https://github.com/KennKanekii/ML-project",
   },
   {
-    title: "Blogging Platform",
+    title: " Doctor Fees Prediction ",
     image: project4,
     description:
-      "A platform for creating and publishing blog posts, with features like rich text editing, commenting, and user profiles.",
-    technologies: ["HTML", "CSS", "Vue.js", "Express", "mySQL"],
+      "Conducted analysis on doctor reviews dataset and used KNN, Support vector and random forest machine learning algorithms. Analysis and web scraping using the python and its libraries",
+    technologies: ["Python", "Seaborn", "Matplotlib", "NumPy", "Pandas", "Scikit-Learn"],
     link:"https://kennkanekii.github.io/Electronic-Website-frontend/",
   },
 ];

@@ -12,9 +12,9 @@ import { HashLink as Link } from "react-router-hash-link";
 
 const Navbar = () => {
   return (
-    <nav className="mb-20 flex items-center justify-between py-6">
+    <nav className="flex items-center justify-between fixed w-full z-99999" style={{ backgroundColor: "#1A1A27" }}>
         
-        <div className="flex flex-shrink-0 items-center">
+        <div className="flex flex-shrink-0 items-center px-6">
             <Link to="#Home"><IconSquareRoundedLetterY size={45} color="#add8e6" stroke={1.5}/></Link>
             <div className="m-8 md:flex items-center justify-between gap-4 hidden">
               <Link className=" text-textColor text-lg font-mono hover:text-primaryColor hover:text-cyan-400" to="#About">About</Link>
@@ -40,7 +40,7 @@ const Navbar = () => {
         </div>
         
         
-        <div className="m-8 flex items-center justify-center gap-4 text-2xl">
+        <div className="m-8 flex items-center justify-center gap-4 text-2xl px-8">
             <a href="https://github.com/KennKanekii"><FaGithub className="text-blue-800"/></a>
             <a href="https://www.linkedin.com/in/yash-vardhan-sharma-0b9aab226/"><FaLinkedin className="text-blue-400"/></a>
             <a href="https://leetcode.com/u/kaneki_io/"><SiLeetcode className="text-yellow-500"/></a>
