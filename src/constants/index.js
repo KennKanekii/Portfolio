@@ -59,7 +59,7 @@ export const PROJECTS = [
     description:
       "Conducted analysis on doctor reviews dataset and used KNN, Support vector and random forest machine learning algorithms. Analysis and web scraping using the python and its libraries",
     technologies: ["Python", "Seaborn", "Matplotlib", "NumPy", "Pandas", "Scikit-Learn"],
-    link:"https://kennkanekii.github.io/Electronic-Website-frontend/",
+    link:"https://github.com/KennKanekii/Fee_Prediction",
   },
 ];
 
