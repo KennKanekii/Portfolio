@@ -12,7 +12,7 @@ import { HashLink as Link } from "react-router-hash-link";
 
 const Navbar = () => {
   return (
-    <nav className="flex items-center justify-between fixed w-full z-99999" style={{ backgroundColor: "#1A1A27" }}>
+    <nav className="flex  justify-between fixed w-full z-99999" style={{ backgroundColor: "#1A1A27" }}>
         
         <div className="flex flex-shrink-0 items-center px-6">
             <Link to="#Home"><IconSquareRoundedLetterY size={45} color="#add8e6" stroke={1.5}/></Link>
@@ -22,7 +22,7 @@ const Navbar = () => {
               <Link className=" text-textColor text-lg font-mono hover:text-primaryColor hover:text-cyan-400" to="#Experience">Experience</Link>
               <Link className=" text-textColor text-lg font-mono hover:text-primaryColor hover:text-cyan-400" to="#Projects">Projects</Link>
               <Link className=" text-textColor text-lg font-mono hover:text-primaryColor hover:text-cyan-400" to="#Contact">Contact</Link>
-              <Link className=" text-textColor text-lg font-mono hover:text-primaryColor hover:text-cyan-400" to="https://drive.google.com/file/d/1N-hAP8pCN4vSzE-ZqPMSggtn-MGj8JPE/view?usp=sharing">Resume</Link>
+              <Link className=" text-textColor text-lg font-mono hover:text-primaryColor hover:text-cyan-400" to="https://drive.google.com/file/d/1gMrYR32b1Etks2n0nHKLqMpFS0RddYxs/view?usp=sharing">Resume</Link>
             </div>
             <button 
               className="mantine-focus-auto bs:!hidden !z-50 relative m_fea6bf1a mantine-Burger-root m_87cf2631 mantine-UnstyledButton-root" 
